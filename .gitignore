@@ -1,0 +1,20 @@
+# Xcode / Swift
+.DS_Store
+.build/
+.swiftpm/xcode/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Local one-task agent checkpoint; do not commit session state
+.agents/checkpoint.md
+
+# Local credentials and test-only secrets
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+secrets/
